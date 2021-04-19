@@ -1,0 +1,36 @@
+Hello Community, I am Mazen form germany, and I hope to get some help here with my Java Code, as I am stuck with the Rock, Paper, Scissory Program... 
+
+While getting a random value out of the "Rock, Paper, Scisors" Array  I am facing the  issue that the output is not beeing display correctly. In this Case the console is just showing an "u"
+
+```js
+// Computer Hand
+function computersPlay (computerSelection) {
+    
+    return computerSelection[Math.floor(Math.random()*computerSelection.length)];
+
+};
+    let arrayZeugs = ["rock", "paper", "scissors"];
+    let computerSelection = arrayZeugs;
+    console.log(computersPlay("This is your output" + computerSelection));
+
+```
+When I am doing it without an description text it works fine
+
+```js
+// Computer Hand
+function computersPlay (computerSelection) {
+    
+    return computerSelection[Math.floor(Math.random()*computerSelection.length)];
+
+};
+    let arrayZeugs = ["rock", "paper", "scissors"];
+    let computerSelection = arrayZeugs;
+    console.log(computersPlay("computerSelection));
+
+```
+
+any ideas or hints ? 
+
+Many thanks for your help in advance
+
+regards Mazen
