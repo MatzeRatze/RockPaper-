@@ -1,2 +1,1 @@
-# RockPaper-
-Rock Paper Scissors Game
+Readme for tic tac toe java program 
